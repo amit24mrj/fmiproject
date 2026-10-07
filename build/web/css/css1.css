@@ -1,0 +1,22 @@
+.border-success {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+}
+#nav1 ul li a{
+text-decoration:none;
+}
+#nav1 ul li{
+border:1px solid white;
+background-color:navajowhite;
+border-radius:20px 20px 20px 20px;
+transition:0.8s ease;
+}
+#nav1 ul li:hover{
+border:1px solid;
+background-color:greenyellow;
+color:yellow;
+box-shadow:5px 5px 17px black;
+}
+.inpt-1{
+    border-radius:20% 20% 20% 20%;
+}
